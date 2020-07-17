@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/all.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Test</title>
+</head>
+<body>
+     <!--Registration-->
+     <div class="register">
+        <div class="col-md-5" id="disp">
+            <img src="css/blue.jpeg" alt="" height="654px" width="500px">
+        </div>
+        <div class="col-md-7" id="reg"><br><br><br><br><br>
+            <h2><b>Sign up for Hamisha!</b></h2>
+            <p>Already a member?<a href="login.php"> Sign up</a></p><br>
+            <form action="register.php" method="POST" class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <input type="text" name="firstname" value size="40" class="form-control" placeholder="Firstname" required>
+                    </div><br>
+                    <div class="col-md-4">
+                        <input type="text" name="secondname" value size="40" class="form-control" placeholder="Second Name" required>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <input type="text" name="username" value size="40" class="form-control" placeholder="Username" required>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <input type="password" name="password" value size="40" class="form-control" placeholder="Password" required>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <input type="password" name="password2" value size="40" class="form-control" placeholder="Confirm Password" required>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <input type="email" name="email" value size="40" class="form-control" placeholder="Email" required>
+                    </div>
+                </div><br>
+                <div class="row"> 
+                    <div class="col-md-4">
+                        <input type="number" name="phone" value size="40" class="form-control" placeholder="Phone" required><br>
+                    </div><br>
+                </div>
+                <div class="row"> 
+                    <div class="col-md-4">
+                        <input type="number" name="address" value size="40" class="form-control" placeholder="Address" required>
+                    </div>
+                </div><br>
+                <button type="submit" value="Register" name="register" class="btn btn-lg btn-block btn-info" id="button">Register</button>
+            </form>
+        </div>
+    </div><br><br>
+    <!-- End of registration-->
+
+
+</body>
+</html>
